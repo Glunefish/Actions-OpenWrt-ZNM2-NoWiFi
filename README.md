@@ -19,7 +19,7 @@ Base from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
 - [csexton/debugger-action](https://github.com/csexton/debugger-action)
 - [Cisco](https://www.cisco.com/)
-- [OpenWRT]([https://github.com/King-Of-Knights/openwrt-6.x)
+- [OpenWRT](https://github.com/King-Of-Knights/openwrt-6.x)
 
 ## License
 
