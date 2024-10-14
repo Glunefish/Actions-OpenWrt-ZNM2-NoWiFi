@@ -1,10 +1,9 @@
 
-Build Immortalwrt for CMCC RAX3000Q/QY using GitHub Actions
+Build Immortalwrt for ZN-M2 using GitHub Actions
 
-Kernel Version : 5.4-QSDK
+Kernel Version : 6.6
 
 - Support IPV6
-- Support Wi-Fi NSS
 - Support NAT NSS
 
 Base from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
@@ -20,7 +19,7 @@ Base from [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
 - [csexton/debugger-action](https://github.com/csexton/debugger-action)
 - [Cisco](https://www.cisco.com/)
-- [ImmortalWrt](https://github.com/kkstone/immortalwrt-ipq50xx)
+- [OpenWRT]([https://github.com/King-Of-Knights/openwrt-6.x)
 
 ## License
 
