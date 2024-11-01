@@ -17,5 +17,3 @@ rm -rf package/base-files/files/etc/banner
 wget https://github.com/openwrt/openwrt/raw/refs/heads/main/package/base-files/files/etc/banner -O package/base-files/files/etc/banner
 rm -rf target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6018-cpufreq.dtsi
 wget https://github.com/kkstone/Actions-OpenWrt-ZNM2-NoWiFi/raw/refs/heads/master/ipq6018-cpufreq.dtsi -O target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6018-cpufreq.dtsi
-rm -rf feeds/luci/applications/luci-app-package-manager/po/zh_Hans/package-manager.po
-wget https://github.com/kkstone/Actions-OpenWrt-ZNM2-NoWiFi/raw/refs/heads/master/package-manager.po -O feeds/luci/applications/luci-app-package-manager/po/zh_Hans/package-manager.po
