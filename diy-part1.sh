@@ -12,6 +12,9 @@
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+rm -rf package/kernel/nat46/Makefile
+wget https://github.com/LiBwrt/openwrt-6.x/raw/refs/heads/kernel-6.12/package/kernel/nat46/Makefile -O package/kernel/nat46/Makefile
+
 cd package
 git clone https://github.com/xiaorouji/openwrt-passwall
 git clone https://github.com/lwb1978/openwrt-gecoosac
