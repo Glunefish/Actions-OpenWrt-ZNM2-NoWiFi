@@ -1,8 +1,9 @@
 
 Build Immortalwrt for ZN-M2 using GitHub Actions
 
-Kernel Version : 6.6
+Kernel Version : 6.12
 
+- No WiFi
 - Support IPV6
 - Support NAT NSS
 
