@@ -19,5 +19,5 @@ sed -i 's/LibWrt/OpenWrt/g' package/base-files/files/bin/config_generate
 sed -i 's/LibWrt/OpenWrt/g' target/linux/qualcommax/base-files/etc/uci-defaults/990_set-wireless.sh
 rm -rf package/base-files/files/etc/banner
 wget https://github.com/openwrt/openwrt/raw/refs/heads/main/package/base-files/files/etc/banner -O package/base-files/files/etc/banner
-rm -rf target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6018-cpufreq.dtsi
-wget https://github.com/kkstone/Actions-OpenWrt-ZNM2-NoWiFi/raw/refs/heads/master/ipq6018-cpufreq.dtsi -O target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6018-cpufreq.dtsi
+# rm -rf target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6018-cpufreq.dtsi
+# wget https://github.com/kkstone/Actions-OpenWrt-ZNM2-NoWiFi/raw/refs/heads/master/ipq6018-cpufreq.dtsi -O target/linux/qualcommax/files/arch/arm64/boot/dts/qcom/ipq6018-cpufreq.dtsi
