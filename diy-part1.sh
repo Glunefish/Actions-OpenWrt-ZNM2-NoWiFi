@@ -14,6 +14,7 @@
 
 sed -i 's/KERNEL_PATCHVER:=6.12/KERNEL_PATCHVER:=6.6/' target/linux/qualcommax/Makefile
 cd package
-# git clone https://github.com/xiaorouji/openwrt-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall-packages
+git clone https://github.com/xiaorouji/openwrt-passwall
 git clone https://github.com/lwb1978/openwrt-gecoosac
 git clone https://github.com/kenzok78/luci-app-adguardhome
