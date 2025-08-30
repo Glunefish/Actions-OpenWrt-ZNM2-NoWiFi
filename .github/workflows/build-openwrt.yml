@@ -55,7 +55,10 @@ jobs:
         sudo apt-get remove -y '^mongodb-.*'
         sudo apt-get remove -y '^mysql-.*'
         sudo apt-get remove -y azure-cli google-cloud-sdk google-chrome-stable firefox powershell mono-devel libgl1-mesa-dri
+        sudo apt remove nodejs
         sudo apt-get autoremove -y
+        curl -fsSL https://deb.nodesource.com/setup_22.x | sudo bash - 
+        sudo apt-get install -y nodejs
         sudo apt-get clean
         df -h
         echo "Removing large directories"
