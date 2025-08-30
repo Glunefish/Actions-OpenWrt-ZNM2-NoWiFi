@@ -13,6 +13,11 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # sed -i 's/KERNEL_PATCHVER:=6.12/KERNEL_PATCHVER:=6.6/' target/linux/qualcommax/Makefile
+
+rm -rf feeds/packages/net/smartdns
+rm -rf feeds/luci/applications/luci-app-smartdns
+
+
 cd package
 # git clone https://github.com/xiaorouji/openwrt-passwall-packages
 # git clone https://github.com/xiaorouji/openwrt-passwall
