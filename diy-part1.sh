@@ -17,4 +17,4 @@ cd package
 # git clone https://github.com/xiaorouji/openwrt-passwall-packages
 # git clone https://github.com/xiaorouji/openwrt-passwall
 git clone https://github.com/lwb1978/openwrt-gecoosac
-git clone https://github.com/pymumu/smartdns
+# git clone https://github.com/pymumu/smartdns
