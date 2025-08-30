@@ -14,8 +14,8 @@
 
 # sed -i 's/KERNEL_PATCHVER:=6.12/KERNEL_PATCHVER:=6.6/' target/linux/qualcommax/Makefile
 
-rm -rf feeds/packages/net/smartdns
-rm -rf feeds/luci/applications/luci-app-smartdns
+rm -rf feeds/packages/net/smartdns 
+rm -rf feeds/luci/applications/luci-app-smartdns 
 
 
 cd package
